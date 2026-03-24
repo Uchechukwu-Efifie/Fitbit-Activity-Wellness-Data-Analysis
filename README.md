@@ -198,7 +198,7 @@ ggplot(data = merged_file_final, aes(x = VeryActiveMinutesPercentage, y = calori
   )
 ```
 
-![Calories vs % Very Active Minutes](charts/calories_vs_veryactive_perc.png)
+![Calories vs % Very Active Minutes](images/Calories_vs_percentageminute_active.jpeg)
 
 ---
 
@@ -216,7 +216,7 @@ ggplot(data = merged_file_final, aes(x = TotalMinutes, y = calories)) +
   )
 ```
 
-![Calories vs Total Minutes](charts/calories_vs_total_minutes.png)
+![Calories vs Total Minutes](images/Calories_vs_total_minutes.jpeg)
 
 ---
 
@@ -233,7 +233,7 @@ merged_file_final %>%
   labs(title = "Total calories per day", x = "Date", y = "Total Calories")
 ```
 
-![Total Calories per Day](charts/total_calories_per_day.png)
+![Total Calories per Day](images/Calories_per_day.jpeg)
 
 ---
 
@@ -250,7 +250,7 @@ merged_file_final %>%
   labs(title = "Total Steps per day", x = "Date", y = "Total Steps")
 ```
 
-![Total Steps per Day](charts/total_steps_per_day.png)
+![Total Steps per Day](images/Total_steps_per_day.jpeg)
 
 ---
 
@@ -267,7 +267,7 @@ merged_file_final %>%
   labs(title = "Total minutes asleep per day", x = "Date", y = "Total Minutes Asleep")
 ```
 
-![Total Minutes Asleep per Day](charts/total_minutes_asleep_per_day.png)
+![Total Minutes Asleep per Day](images/Total_minutes_asleep_per_day.jpeg)
 
 ---
 
@@ -289,7 +289,7 @@ merged_file_final %>%
   )
 ```
 
-![% Very Active Minutes per Day](charts/veryactive_perc_per_day.png)
+![% Very Active Minutes per Day](images/Percentage_time_veryactive_per_day.jpeg)
 
 ---
 
