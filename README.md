@@ -180,7 +180,7 @@ ggplot(data = merged_file_final, aes(x = TotalMinutesAsleep, y = calories)) +
   )
 ```
 
-![Calories vs Minutes Asleep](charts/calories_vs_sleep.png)
+![Calories vs Minutes Asleep](images/Calories_vs_minutes_asleep.jpeg)
 
 ---
 
